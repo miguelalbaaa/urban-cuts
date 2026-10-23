@@ -1,0 +1,384 @@
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="URBAN CUTS: barbería moderna, cortes clásicos y estilos urbanos. Conocé nuestros servicios y reservá tu turno."
+    >
+
+    <title>URBAN CUTS | Barbería</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- BARRA SUPERIOR -->
+    <div class="announcement">
+        <p>ESTILO, PRECISIÓN Y ACTITUD.</p>
+    </div>
+
+    <!-- NAVEGACIÓN -->
+    <header class="header">
+        <nav class="navbar container">
+
+            <a href="#inicio" class="logo">
+                URBAN<span>CUTS.</span>
+            </a>
+
+            <button
+                class="menu-toggle"
+                id="menu-toggle"
+                aria-label="Abrir menú"
+                aria-expanded="false"
+                aria-controls="nav-links"
+            >
+                ☰
+            </button>
+
+            <div class="nav-links" id="nav-links">
+                <a href="#inicio">Inicio</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#nosotros">Nosotros</a>
+                <a href="#galeria">Galería</a>
+                <a href="#contacto" class="nav-cta">Reservar turno</a>
+            </div>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- PORTADA -->
+        <section class="hero" id="inicio">
+
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content container">
+
+                <span class="eyebrow">TU ESTILO, TU IDENTIDAD</span>
+
+                <h1>
+                    NO ES SOLO<br>
+                    UN <span>CORTE.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Es actitud. Es confianza. Es la forma en la que te presentás
+                    al mundo. Encontrá tu estilo con nuestros barberos.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#contacto" class="button button-primary">
+                        RESERVAR TURNO
+                    </a>
+
+                    <a href="#servicios" class="button button-outline">
+                        VER SERVICIOS
+                    </a>
+                </div>
+
+                <div class="hero-details">
+                    <div>
+                        <strong>01</strong>
+                        <span>Estilo personalizado</span>
+                    </div>
+
+                    <div>
+                        <strong>02</strong>
+                        <span>Atención profesional</span>
+                    </div>
+
+                    <div>
+                        <strong>03</strong>
+                        <span>Detalles que importan</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- BENEFICIOS -->
+        <section class="benefits">
+            <div class="container benefits-grid">
+
+                <article class="benefit">
+                    <span class="benefit-number">01 /</span>
+                    <h3>CORTES PRECISOS</h3>
+                    <p>Un estilo pensado para vos.</p>
+                </article>
+
+                <article class="benefit">
+                    <span class="benefit-number">02 /</span>
+                    <h3>ATENCIÓN PERSONALIZADA</h3>
+                    <p>Cuidamos cada detalle.</p>
+                </article>
+
+                <article class="benefit">
+                    <span class="benefit-number">03 /</span>
+                    <h3>AMBIENTE URBANO</h3>
+                    <p>Tu momento, tu espacio.</p>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- SERVICIOS -->
+        <section class="services section" id="servicios">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="eyebrow">LO QUE HACEMOS</span>
+                    <h2>NUESTROS <span>SERVICIOS</span></h2>
+                    <p>
+                        Desde un corte clásico hasta un estilo moderno.
+                        Encontrá el servicio ideal para vos.
+                    </p>
+                </div>
+
+                <div class="services-grid">
+
+                    <article class="service-card">
+                        <div class="service-number">01</div>
+
+                        <div class="service-icon" aria-hidden="true">✂</div>
+
+                        <h3>CORTE DE CABELLO</h3>
+
+                        <p>
+                            Cortes clásicos, degradados y estilos actuales
+                            adaptados a tu preferencia.
+                        </p>
+
+                        <div class="service-footer">
+                            <span>DESDE</span>
+                            <strong>$8.000</strong>
+                        </div>
+                    </article>
+
+                    <article class="service-card featured">
+                        <div class="service-number">02</div>
+
+                        <div class="service-icon" aria-hidden="true">✦</div>
+
+                        <h3>CORTE + BARBA</h3>
+
+                        <p>
+                            Un servicio completo para renovar tu imagen
+                            con un acabado prolijo.
+                        </p>
+
+                        <div class="service-footer">
+                            <span>DESDE</span>
+                            <strong>$12.000</strong>
+                        </div>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="service-number">03</div>
+
+                        <div class="service-icon" aria-hidden="true">◈</div>
+
+                        <h3>PERFILADO DE BARBA</h3>
+
+                        <p>
+                            Definición de contornos y arreglo de barba
+                            para un resultado limpio.
+                        </p>
+
+                        <div class="service-footer">
+                            <span>DESDE</span>
+                            <strong>$5.000</strong>
+                        </div>
+                    </article>
+
+                </div>
+
+                <p class="price-note">
+                    * Precios ilustrativos para esta demostración.
+                </p>
+
+            </div>
+        </section>
+
+        <!-- NOSOTROS -->
+        <section class="about section" id="nosotros">
+
+            <div class="container about-grid">
+
+                <div class="about-visual">
+                    <div class="about-frame">
+                        <span class="about-big-text">UC.</span>
+                        <span class="about-small-text">EST. 2020</span>
+                    </div>
+                </div>
+
+                <div class="about-content">
+                    <span class="eyebrow">MÁS QUE UNA BARBERÍA</span>
+
+                    <h2>EL ESTILO ESTÁ<br>EN LOS <span>DETALLES.</span></h2>
+
+                    <p>
+                        En URBAN CUTS creemos que un buen corte empieza
+                        escuchando al cliente. Nuestro objetivo es que cada
+                        visita sea una experiencia cómoda, profesional
+                        y adaptada a tu estilo.
+                    </p>
+
+                    <p>
+                        Trabajamos cada detalle para que salgas con una imagen
+                        que te represente.
+                    </p>
+
+                    <a href="#contacto" class="text-link">
+                        VENÍ A CONOCERNOS <span>→</span>
+                    </a>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- GALERÍA -->
+        <section class="gallery section" id="galeria">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="eyebrow">INSPIRACIÓN URBANA</span>
+                    <h2>EL ESTILO HABLA <span>POR VOS.</span></h2>
+                    <p>
+                        Una selección visual de estilos y cortes para inspirarte.
+                    </p>
+                </div>
+
+                <div class="gallery-grid">
+
+                    <div class="gallery-item gallery-item-large">
+                        <img
+                            src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=1000&q=85"
+                            alt="Interior de una barbería moderna"
+                            loading="lazy"
+                        >
+                        <span>EL ESPACIO</span>
+                    </div>
+
+                    <div class="gallery-item">
+                        <img
+                            src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=800&q=85"
+                            alt="Trabajo de barbería y corte de cabello"
+                            loading="lazy"
+                        >
+                        <span>LA TÉCNICA</span>
+                    </div>
+
+                    <div class="gallery-item">
+                        <img
+                            src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=800&q=85"
+                            alt="Herramientas y trabajo de barbero"
+                            loading="lazy"
+                        >
+                        <span>LOS DETALLES</span>
+                    </div>
+
+                </div>
+
+                <p class="price-note">
+                    * Imágenes de referencia. La galería definitiva debe utilizar
+                    fotos autorizadas del negocio.
+                </p>
+
+            </div>
+        </section>
+
+        <!-- CONTACTO -->
+        <section class="contact section" id="contacto">
+
+            <div class="container contact-box">
+
+                <div class="contact-content">
+                    <span class="eyebrow">TU PRÓXIMO CORTE EMPIEZA ACÁ</span>
+
+                    <h2>¿LISTO PARA<br>UN <span>NUEVO ESTILO?</span></h2>
+
+                    <p>
+                        Escribinos por WhatsApp para consultar disponibilidad
+                        y coordinar tu turno.
+                    </p>
+
+                    <a
+                        href="#"
+                        class="button button-primary"
+                        id="whatsapp-button"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        RESERVAR POR WHATSAPP ↗
+                    </a>
+                </div>
+
+                <div class="contact-info">
+
+                    <div class="contact-info-item">
+                        <span>UBICACIÓN</span>
+                        <p>Tu ciudad, Argentina</p>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <span>HORARIOS</span>
+                        <p>Lunes a sábado</p>
+                        <p>09:00 a 20:00</p>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <span>CONTACTO</span>
+                        <p>Reservas por WhatsApp</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer class="footer">
+
+        <div class="container footer-content">
+
+            <a href="#inicio" class="logo">
+                URBAN<span>CUTS.</span>
+            </a>
+
+            <p>ESTILO, PRECISIÓN Y ACTITUD.</p>
+
+            <span class="copyright">
+                © <span id="current-year">2026</span> URBAN CUTS.
+                PROYECTO DEMOSTRATIVO.
+            </span>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
+```
